@@ -13,6 +13,8 @@ import sys
 
 def check_weirdness(n):
     """
+    if n is less than 1 or greater than 100, return "Not Applicable"
+
     if n is odd, return "Weird"
     if n is even and in the inclusive range of 6 to 20, return "Weird"
 
