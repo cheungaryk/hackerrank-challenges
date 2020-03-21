@@ -19,6 +19,9 @@ def check_weirdness(n):
     if n is even and in the inclusive range of 2 to 5, return "Not Weird"
     if n is even and greater than 20, return "Not Weird"
     """
+    if n < 1 or n > 100:
+        return "Not Applicable"
+
     return "Not Weird" if n % 2 == 0 and (2 <= n <= 5 or n > 20) else "Weird"
 
 if __name__ == '__main__':
