@@ -6,12 +6,6 @@
 # If n is even and in the inclusive range of 6 to 20, print "Weird"
 # If n is even and greater than 20, print "Not Weird"
 
-import math
-import os
-import random
-import re
-import sys
-
 def check_weirdness(n):
     """
     if n is less than 1 or greater than 100, return "Not Applicable"
