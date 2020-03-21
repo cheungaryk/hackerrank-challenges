@@ -1,10 +1,10 @@
 #!/bin/python3
 #
 # https://www.hackerrank.com/challenges/py-if-else/problem
-# 
 # Given a positive integer n where 1 <= n <= 100
 # If n is even and in the inclusive range of 6 to 20, print "Weird"
 # If n is even and greater than 20, print "Not Weird"
+
 
 def check_weirdness(n):
     """
@@ -20,6 +20,7 @@ def check_weirdness(n):
         return "Not Applicable"
 
     return "Not Weird" if n % 2 == 0 and (2 <= n <= 5 or n > 20) else "Weird"
+
 
 if __name__ == '__main__':
     n = int(input().strip())
